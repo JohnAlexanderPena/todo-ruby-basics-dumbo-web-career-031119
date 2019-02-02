@@ -18,8 +18,8 @@ def return_a_value(phrase= "Nice")
   "#{phrase}"
 end
 
-def last_evaluated_value(phrase)
-  phrase= "expert"
+def last_evaluated_value(phrase = "expert")
+  
 end
 
 def pizza_party(topping= "cheese")
