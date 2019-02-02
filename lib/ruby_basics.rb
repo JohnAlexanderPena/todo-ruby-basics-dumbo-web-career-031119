@@ -3,25 +3,26 @@ def division(num1, num2)
 end
 
 def assign_variable(value)
-  #{value}
+  #{value} = #{value}
 end
 
-def argue
-  
+def argue(argument)
+  argument
 end
 
-def greeting
-
+def greeting(greeting,name)
+  #{greeting} #{name}
 end
 
-def return_a_value
-
+def return_a_value(phrase= "Nice")
+  #{phrase}
 end
 
-def last_evaluated_value
-
+def last_evaluated_value(phrase)
+  puts phrase
+  "expert"
 end
 
-def pizza_party
-
+def pizza_party(topping= "cheese")
+  #{topping}
 end
